@@ -1,0 +1,27 @@
+Cadastro de Usuário:
+
+- Nome permitindo caracteres numéricos.
+- Nome permitindo caracteres especiais.
+- Permitindo a senha ser criada de qualquer forma sem exigências.
+
+Contas:
+
+- Caracteres Especiais sendo permitidos.
+- Caracteres Numéricos sendo permitidos.
+- Dar um espaçamento maior entre os ícones de ações.
+- Colocar uma opção de desfazer ao realizar uma exclusão.
+
+Criar Movimentação:
+
+- Colocar na caixa de "Data da Movimentação" uma opção que já fique em forma de data ao digitar um valor.
+- Colocar na caixa de "Data do Pagamento" uma opção que já fique em forma de data ao digitar um valor.
+- Colocar uma opção de desfazer ao realizar uma exclusão.
+
+Resumo Mensal:
+
+- Opção de edição da movimentação.
+
+Reset:
+
+- A opção de Reset poderia ficar em uma localização mais fácil do usuário perceber.
+- Ao clicar em Reset, estão aparecendo novas informações ao invés de resetar.
