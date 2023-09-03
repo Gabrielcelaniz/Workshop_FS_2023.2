@@ -1,0 +1,107 @@
+Cenário: Validação de login
+
+Caso 1: Preencher o “login” e a senha corretamente:
+•	Abrir o site
+•	Preencher o usuário e senha corretamente
+•	Clicar em fazer Login
+=> Resultado esperado:
+•	Abrir a página inicial
+
+Caso 2: Preencher “login” corretamente e senha errada:
+•	Abrir o site
+•	Preencher o usuário corretamente
+•	Preencher a senha incorretamente
+•	Clicar em fazer Login
+=> Resultado esperado:
+•	Falha em fazer login por causa da senha
+
+Caso 3: Preencher senha corretamente e “login” errado:
+•	- Abrir o site
+•	- Preencher o usuário incorretamente
+•	- Preencher a senha corretamente
+•	- Clicar em fazer Login
+=> Resultado esperado:
+•	- Falha em fazer login por causa do usuário
+
+Caso 4: Não preencher nenhuma opção e clicar em fazer login:
+•	- Abrir o site
+•	- Clicar em fazer Login
+=> Resultado esperado:
+•	- Falha em fazer login por causa que nenhum campo foi preenchido
+
+Caso 5: Preencher apenas o “login” e tentar entrar:
+•	- Abrir o site
+•	- Preencher apenas o campo login
+•	- Clicar em fazer Login
+=> Resultado esperado:
+•	- Falha em fazer login por causa que campo usuário não foi preenchido
+
+Caso 6: Preencher apenas a “senha” e tentar entrar:
+•	- Abrir o site
+•	- Preencher apenas o campo senha
+•	- Clicar em fazer Login
+=> Resultado esperado:
+•	- Falha em fazer login por causa que campo senha não foi preenchida
+
+Caso 7: Dar espaço no campo de “senha”:
+•	- Abrir o site
+•	- Preencher o usuário corretamente
+•	- Preencher a senha e dar espaço no campo
+•	- Clicar em fazer Login
+=> Resultado esperado:
+•	- Falha em fazer login por causa da senha inválida
+
+
+
+Cenário: Pós Login
+
+Cadastro de Usuário:
+
+- Nome permitindo caracteres numéricos.
+=> Resultado esperado:
+•	- Falha em fazer cadastro
+
+- Nome permitindo caracteres especiais.
+=> Resultado esperado:
+•	- Falha em fazer cadastro
+
+- Permitindo a senha ter espaço.
+=> Resultado esperado:
+•	- Falha em fazer cadastro
+
+Contas:
+
+- Caracteres Especiais sendo permitidos.
+=> Resultado esperado:
+•	- Falha em fazer cadastro de conta
+
+- Caracteres Numéricos sendo permitidos.
+=> Resultado esperado:
+•	- Falha em fazer cadastro de conta
+
+Sugestões:
+- Dar um espaçamento maior entre os ícones de ações.
+- Colocar uma opção de desfazer ao realizar uma exclusão.
+
+
+Criar Movimentação:
+
+Sugestões:
+- Colocar na caixa de "Data da Movimentação" uma opção que já fique em forma de data ao digitar um valor.
+- Colocar na caixa de "Data do Pagamento" uma opção que já fique em forma de data ao digitar um valor.
+- Colocar uma opção de desfazer ao realizar uma exclusão.
+
+Resumo Mensal:
+
+Sugestões:
+- Opção de edição da movimentação.
+
+Reset:
+
+- Ao clicar em Reset, estão aparecendo novas informações ao invés de resetar.
+=> Resultado esperado:
+•	- Resetar todos os dados das contas e movimentações
+
+Sugestões:
+- A opção de Reset poderia ficar em uma localização mais fácil do usuário perceber.
+
