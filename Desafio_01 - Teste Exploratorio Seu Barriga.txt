@@ -58,27 +58,50 @@ Cenário: Pós Login
 Cadastro de Usuário:
 
 - Nome permitindo caracteres numéricos.
+=> Resultado esperado:
+•	- Falha em fazer cadastro
+
 - Nome permitindo caracteres especiais.
-- Permitindo a senha ser criada de qualquer forma sem exigências.
+=> Resultado esperado:
+•	- Falha em fazer cadastro
+
+- Permitindo a senha ter espaço.
+=> Resultado esperado:
+•	- Falha em fazer cadastro
 
 Contas:
 
 - Caracteres Especiais sendo permitidos.
+=> Resultado esperado:
+•	- Falha em fazer cadastro de conta
+
 - Caracteres Numéricos sendo permitidos.
+=> Resultado esperado:
+•	- Falha em fazer cadastro de conta
+
+Sugestões:
 - Dar um espaçamento maior entre os ícones de ações.
 - Colocar uma opção de desfazer ao realizar uma exclusão.
 
+
 Criar Movimentação:
 
+Sugestões:
 - Colocar na caixa de "Data da Movimentação" uma opção que já fique em forma de data ao digitar um valor.
 - Colocar na caixa de "Data do Pagamento" uma opção que já fique em forma de data ao digitar um valor.
 - Colocar uma opção de desfazer ao realizar uma exclusão.
 
 Resumo Mensal:
 
+Sugestões:
 - Opção de edição da movimentação.
 
 Reset:
 
-- A opção de Reset poderia ficar em uma localização mais fácil do usuário perceber.
 - Ao clicar em Reset, estão aparecendo novas informações ao invés de resetar.
+=> Resultado esperado:
+•	- Resetar todos os dados das contas e movimentações
+
+Sugestões:
+- A opção de Reset poderia ficar em uma localização mais fácil do usuário perceber.
+
